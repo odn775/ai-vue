@@ -16,7 +16,7 @@
                         <el-rate
                         v-model="diaryForm.moodScore"
                         :texts="emotionalContent"
-                        show-texts
+                        show-text
                         :max="10"
                         size="large"
                         />
